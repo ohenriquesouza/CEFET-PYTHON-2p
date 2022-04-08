@@ -1,0 +1,6 @@
+print("Informe a distância até o destino (em Km): ")
+distancia = int(input())
+print("Qual velocidade média esperada para a viagem?: ")
+v_media = int(input())
+tempo_estimado = (distancia / v_media) 
+print("O tempo médio esperado para essa viagem é de: %.0f horas" %(tempo_estimado))

@@ -1,0 +1,6 @@
+print("Entre com o preço do produto: ")
+preco = int(input("R$"))
+print("Qual porcentagem de desconto será aplicada? ")
+desconto = int(input("%"))
+novo_preco = preco - preco * (desconto / 100)
+print(f"Novo preço: R${novo_preco}")
